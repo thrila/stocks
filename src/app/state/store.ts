@@ -1,6 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-
+const headerReducer = () => { };
+const stocksReducer = () => { }
+const graphsReducer = () => { }
 export const store = configureStore({
   reducer: {
     header: headerReducer,
