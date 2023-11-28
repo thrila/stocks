@@ -3,7 +3,7 @@ import React from 'react'
 const StockCardItem = () => {
   return (
 
-    <div className='flex space-x-32 py-5  bg-cards px-3 my-2 rounded font-thin font-sans'>
+    <div className='flex space-x-24 py-3 text-black bg-cards px-3 my-2 rounded font-thin font-sans'>
       <p className=''> Name</p>
       <p className=''> Last</p>
       <p className=''> Chg</p>

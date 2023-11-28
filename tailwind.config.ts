@@ -18,9 +18,11 @@ const config: Config = {
     },
 
     colors: {
-      'primary': '#F1EAFF',
-      'gold': '#164863',
-      'lines': '#FDF7E4',
+      'gold': '#FFD700',
+      'white': '#FBFCF8',
+      'black': '#0B0c10',
+      'ash': '#B2BEB5',
+      'charcoal': '#1F2833',
       'header': '#D0A2F7',
       'cards': '#DCBFFF',
       'hover': '#E5D4FF',

@@ -2,7 +2,7 @@ import React from 'react'
 
 const StockCardHeader = () => {
   return (
-    <div className='flex space-x-32 py-5 rounded-t-lg bg-cards px-5 font-thin font-sans'>
+    <div className='container flex space-x-24 py-3 rounded-t-lg bg-charcoal text-white px-2 font-thin font-sans justify-center'>
       <p className=''> Name</p>
       <p className=''> Last</p>
       <p className=''> Chg</p>

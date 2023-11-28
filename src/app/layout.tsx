@@ -3,6 +3,7 @@ import { abrilFatface, openSans } from '@ui/fonts'
 import '@/app/ui/global.css'
 import Header from '@ui/header/header'
 import Footer from '@ui/footer/footer'
+import Search from '@ui/search/search'
 
 
 export const metadata: Metadata = {
@@ -17,14 +18,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${abrilFatface.className} ${openSans.className} antialiased `}>
-      <body className='bg-chartImage bg-cover bg-center bg-opacity-95 h-full'>
+    <html lang="en" className={` ${openSans.className}  antialiased `}>
+      <body className='bg-chartImage bg-cover bg-center backdrop-blur-sm bg-opacity-95 h-full'>
         <div className='min-h-full'>
           <Header />
+          <Search />
           {/* make header and place here */}
           {children}
           {/* make footer and place here */}
-          {/* <Footer /> */}
+          <Footer />
 
         </div>
       </body>
